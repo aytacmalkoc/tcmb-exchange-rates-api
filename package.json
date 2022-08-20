@@ -2,10 +2,11 @@
   "name": "tcmb-kurlar",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://aytacmalkoc.com.tr/tcmb-exchange-rates-api/api",
+  "homepage": "https://aytacmalkoc.com.tr/tcmb-exchange-rates-api",
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www"
+    "dev": "nodemon ./bin/www",
+    "publish": "gh-pages ."
   },
   "dependencies": {
     "axios": "^0.27.2",
