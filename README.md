@@ -2,6 +2,11 @@
 
 This API service provides TCMB's [exchange rates](https://www.tcmb.gov.tr/kurlar/today.xml) data.
 
+## Usage
+
+You can access the [exchange rates at](https://tcmb-exchange-rates.herokuapp.com/exchange-rates).
+
+
 ## 🔗 Installation
 
 #### Clone Repository
