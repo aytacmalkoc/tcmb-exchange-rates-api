@@ -2,10 +2,13 @@
 
 This API service provides TCMB's [exchange rates](https://www.tcmb.gov.tr/kurlar/today.xml) data.
 
-## Usage
+## 👉 Usage
 
 You can access the [exchange rates at](https://tcmb-exchange-rates.herokuapp.com/exchange-rates).
 
+## ⌛ Rate Limits
+
+Default rate limits are set to `100` requests per hour.
 
 ## 🔗 Installation
 
@@ -21,7 +24,7 @@ git clone https://github.com/aytacmalkoc/tcmb-exchange-rates-api.git
 yarn install
 ```
 
-## 👉 Run Development Server
+## Run Development Server
 
 ```bash
 yarn dev
