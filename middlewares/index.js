@@ -1,4 +1,5 @@
 const expressRateLimit = require('express-rate-limit');
+const apiCache = require('apicache');
 
 const rateLimit = expressRateLimit({
     windowMs: 60 * 60 * 1000, // 1 hour
@@ -8,6 +9,9 @@ const rateLimit = expressRateLimit({
 	legacyHeaders: false,
 });
 
+const cache = (duration = '5 minutes') => apiCache.middleware(duration);
+
 module.exports = {
-    rateLimit
+    rateLimit,
+    cache
 };
