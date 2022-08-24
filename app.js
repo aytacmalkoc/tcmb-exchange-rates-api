@@ -1,11 +1,14 @@
 const express = require('express');
-const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+const cors = require('cors');
 const helmet = require('helmet');
-const indexRouter = require('./routes/index');
+const cookieParser = require('cookie-parser');
 const app = express();
 
+const indexRouter = require('./routes/index');
+
 app.use(logger('dev'));
+app.use(cors());
 app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
