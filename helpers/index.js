@@ -24,20 +24,22 @@ const getExchangeRatesJSON = async () => {
 
 // create a new object with exchange rates
 const createExchangeObject = (exchanges) => {
-    const arr = {
+    let arr = {
         last_update: {
             date_tr: exchanges.Tarih_Date._attributes.Tarih,
             date_en: exchanges.Tarih_Date._attributes.Date,
             bulletin_no: exchanges.Tarih_Date._attributes.Bulten_No,
         },
-        exchangeRates: []
+        exchangeRates: {}
     };
 
     exchanges.Tarih_Date.Currency.forEach(currency => {
-        arr.exchangeRates.push({
+        const currencyCode = currency._attributes.CurrencyCode.toLowerCase();
+
+        arr.exchangeRates[currencyCode] = {
             crossOrder: currency._attributes.CrossOrder,
             code: currency._attributes.Code,
-            currencyCode: currency._attributes.CurrencyCode,
+            currencyCode,
             unit: currency.Unit._text,
             name_tr: currency.Isim._text,
             name_en: currency.CurrencyName._text,
@@ -47,7 +49,7 @@ const createExchangeObject = (exchanges) => {
             banknoteSelling: currency.BanknoteSelling._text || null,
             crossRateUSD: currency.CrossRateUSD._text || null,
             crossRateOther: currency.CrossRateOther._text || null,
-        })
+        }
     });
 
     return arr;
