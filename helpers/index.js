@@ -39,7 +39,7 @@ const createExchangeObject = (exchanges) => {
         arr.exchangeRates[currencyCode] = {
             crossOrder: currency._attributes.CrossOrder,
             code: currency._attributes.Code,
-            currencyCode,
+            currencyCode: currency._attributes.CurrencyCode,
             unit: currency.Unit._text,
             name_tr: currency.Isim._text,
             name_en: currency.CurrencyName._text,
