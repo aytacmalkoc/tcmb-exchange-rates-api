@@ -1,12 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const { rateLimit, cache } = require('../middlewares');
-const { getExchangeRatesJSON } = require('../helpers');
+const { getExchangeRates } = require('../helpers');
 
-router.get('/exchange-rates', [rateLimit, cache()], async function(req, res, next) {
-  const exchangeRates = await getExchangeRatesJSON();
+router.get('/exchange-rates', async function(req, res, next) {
+  const exchangeRates = await getExchangeRates();
 
-  return res.json(exchangeRates).status(200);
+  return res.status(200).json(exchangeRates);
 });
 
 module.exports = router;
