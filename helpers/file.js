@@ -30,7 +30,7 @@ const isLocalFileU2D = (bulletin_no) => {
         const localBulletin = file.last_update.bulletin_no.split('/')[1];
         const givenBulletin = bulletin_no.split('/')[1];
 
-        return parseInt(givenBulletin) < parseInt(localBulletin);
+        return parseInt(localBulletin) === parseInt(givenBulletin);
     } catch (error) {
         throw Error(error);
     }
