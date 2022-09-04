@@ -1,4 +1,7 @@
+require('dotenv').config();
+require('./helpers/cron');
 const express = require('express');
+require('express-async-errors');
 const logger = require('morgan');
 const cors = require('cors');
 const helmet = require('helmet');
