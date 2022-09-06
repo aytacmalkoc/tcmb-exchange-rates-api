@@ -13,9 +13,7 @@ const fetchUpdates = new CronJob('*/2 * * * *', async () => {
         const exchangeRates = createExchangeObject(data)
 
         if (!isLocalFileU2D(exchangeRates.last_update.bulletin_no)) {
-            writeLocalFile(exchangeRates);
-            console.log('writing: ', exchangeRates);
-            console.log('reading: ', readLocalFile());
+            await writeLocalFile(exchangeRates);
         }
     } catch (error) {
         console.error(error.message);
