@@ -6,6 +6,8 @@ const { getExchangeRates } = require('../helpers');
 router.get('/exchange-rates', [rateLimit, cache()], async function(req, res, next) {
   const exchangeRates = await getExchangeRates();
 
+  console.log('response: ', exchangeRates);
+
   return res.status(200).json(exchangeRates);
 });
 
