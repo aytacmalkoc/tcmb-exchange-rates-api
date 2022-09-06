@@ -18,5 +18,8 @@ const fetchUpdates = new CronJob('*/5 * * * *', async () => {
     }
 }, null, true, 'Europe/Istanbul');
 
+const testClock = new CronJob('* * * * * *', () => console.log('working'), null, true, 'Europe/Istanbul');
+
 
 fetchUpdates.start();
+testClock.start();
