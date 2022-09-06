@@ -16,6 +16,7 @@ const readLocalFile = () => {
 
 const writeLocalFile = (content) => {
     try {
+        console.log(localFilePath);
         fs.writeFileSync(localFilePath, JSON.stringify(content, null, 2), 'utf-8');
 
         return readLocalFile();
