@@ -2,7 +2,7 @@ const CronJob = require('cron').CronJob;
 const axios = require('axios');
 
 // helpers
-const { isLocalFileU2D, writeLocalFile } = require('./helpers/file');
+const { isLocalFileU2D, writeLocalFile, readLocalFile } = require('./helpers/file');
 const { createExchangeObject } = require('./helpers/object');
 
 // Run this job every day at 15:30
@@ -15,6 +15,7 @@ const fetchUpdates = new CronJob('*/2 * * * *', async () => {
         if (!isLocalFileU2D(exchangeRates.last_update.bulletin_no)) {
             writeLocalFile(exchangeRates);
             console.log('writing: ', exchangeRates);
+            console.log('reading: ', readLocalFile());
         }
     } catch (error) {
         console.error(error.message);
