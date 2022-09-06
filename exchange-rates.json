@@ -1,8 +1,8 @@
 {
   "last_update": {
-    "date_tr": "02.09.2022",
-    "date_en": "09/02/2022",
-    "bulletin_no": "2022/166"
+    "date_tr": "05.09.2022",
+    "date_en": "09/05/2022",
+    "bulletin_no": "2022/167"
   },
   "exchangeRates": {
     "usd": {
@@ -11,10 +11,10 @@
       "unit": 1,
       "name_tr": "ABD DOLARI",
       "name_en": "US DOLLAR",
-      "forexBuying": 18.2009,
-      "forexSelling": 18.2337,
-      "banknoteBuying": 18.1882,
-      "banknoteSelling": 18.2611,
+      "forexBuying": 18.205,
+      "forexSelling": 18.2378,
+      "banknoteBuying": 18.1923,
+      "banknoteSelling": 18.2652,
       "crossRateUSD": null,
       "crossRateOther": null
     },
@@ -24,11 +24,11 @@
       "unit": 1,
       "name_tr": "AVUSTRALYA DOLARI",
       "name_en": "AUSTRALIAN DOLLAR",
-      "forexBuying": 12.3539,
-      "forexSelling": 12.4344,
-      "banknoteBuying": 12.2971,
-      "banknoteSelling": 12.509,
-      "crossRateUSD": 1.4698,
+      "forexBuying": 12.3295,
+      "forexSelling": 12.4099,
+      "banknoteBuying": 12.2728,
+      "banknoteSelling": 12.4844,
+      "crossRateUSD": 1.4731,
       "crossRateOther": null
     },
     "dkk": {
@@ -37,11 +37,11 @@
       "unit": 1,
       "name_tr": "DANİMARKA KRONU",
       "name_en": "DANISH KRONE",
-      "forexBuying": 2.4407,
-      "forexSelling": 2.4527,
-      "banknoteBuying": 2.439,
-      "banknoteSelling": 2.4584,
-      "crossRateUSD": 7.4456,
+      "forexBuying": 2.424,
+      "forexSelling": 2.4359,
+      "banknoteBuying": 2.4223,
+      "banknoteSelling": 2.4415,
+      "crossRateUSD": 7.4985,
       "crossRateOther": null
     },
     "eur": {
@@ -50,12 +50,12 @@
       "unit": 1,
       "name_tr": "EURO",
       "name_en": "EURO",
-      "forexBuying": 18.1797,
-      "forexSelling": 18.2125,
-      "banknoteBuying": 18.167,
-      "banknoteSelling": 18.2398,
+      "forexBuying": 18.0545,
+      "forexSelling": 18.087,
+      "banknoteBuying": 18.0419,
+      "banknoteSelling": 18.1142,
       "crossRateUSD": null,
-      "crossRateOther": 0.9988
+      "crossRateOther": 0.9917
     },
     "gbp": {
       "crossOrder": 10,
@@ -63,12 +63,12 @@
       "unit": 1,
       "name_tr": "İNGİLİZ STERLİNİ",
       "name_en": "POUND STERLING",
-      "forexBuying": 21.0049,
-      "forexSelling": 21.1144,
-      "banknoteBuying": 20.9902,
-      "banknoteSelling": 21.1461,
+      "forexBuying": 20.8916,
+      "forexSelling": 21.0006,
+      "banknoteBuying": 20.877,
+      "banknoteSelling": 21.0321,
       "crossRateUSD": null,
-      "crossRateOther": 1.156
+      "crossRateOther": 1.1495
     },
     "chf": {
       "crossOrder": 3,
@@ -76,11 +76,11 @@
       "unit": 1,
       "name_tr": "İSVİÇRE FRANGI",
       "name_en": "SWISS FRANK",
-      "forexBuying": 18.5114,
-      "forexSelling": 18.6302,
-      "banknoteBuying": 18.4836,
-      "banknoteSelling": 18.6582,
-      "crossRateUSD": 0.981,
+      "forexBuying": 18.4913,
+      "forexSelling": 18.61,
+      "banknoteBuying": 18.4636,
+      "banknoteSelling": 18.6379,
+      "crossRateUSD": 0.9823,
       "crossRateOther": null
     },
     "sek": {
@@ -89,11 +89,11 @@
       "unit": 1,
       "name_tr": "İSVEÇ KRONU",
       "name_en": "SWEDISH KRONA",
-      "forexBuying": 1.684,
-      "forexSelling": 1.7014,
-      "banknoteBuying": 1.6828,
-      "banknoteSelling": 1.7053,
-      "crossRateUSD": 10.76,
+      "forexBuying": 1.674,
+      "forexSelling": 1.6913,
+      "banknoteBuying": 1.6728,
+      "banknoteSelling": 1.6952,
+      "crossRateUSD": 10.83,
       "crossRateOther": null
     },
     "cad": {
@@ -102,11 +102,11 @@
       "unit": 1,
       "name_tr": "KANADA DOLARI",
       "name_en": "CANADIAN DOLLAR",
-      "forexBuying": 13.829,
-      "forexSelling": 13.8913,
-      "banknoteBuying": 13.7778,
-      "banknoteSelling": 13.9441,
-      "crossRateUSD": 1.3144,
+      "forexBuying": 13.8206,
+      "forexSelling": 13.8829,
+      "banknoteBuying": 13.7694,
+      "banknoteSelling": 13.9357,
+      "crossRateUSD": 1.3155,
       "crossRateOther": null
     },
     "kwd": {
@@ -115,12 +115,12 @@
       "unit": 1,
       "name_tr": "KUVEYT DİNARI",
       "name_en": "KUWAITI DINAR",
-      "forexBuying": 58.6779,
-      "forexSelling": 59.4457,
-      "banknoteBuying": 57.7978,
-      "banknoteSelling": 60.3374,
+      "forexBuying": 58.6698,
+      "forexSelling": 59.4375,
+      "banknoteBuying": 57.7897,
+      "banknoteSelling": 60.3291,
       "crossRateUSD": null,
-      "crossRateOther": 3.2421
+      "crossRateOther": 3.2409
     },
     "nok": {
       "crossOrder": 7,
@@ -128,10 +128,10 @@
       "unit": 1,
       "name_tr": "NORVEÇ KRONU",
       "name_en": "NORWEGIAN KRONE",
-      "forexBuying": 1.8116,
-      "forexSelling": 1.8238,
-      "banknoteBuying": 1.8103,
-      "banknoteSelling": 1.828,
+      "forexBuying": 1.8133,
+      "forexSelling": 1.8255,
+      "banknoteBuying": 1.812,
+      "banknoteSelling": 1.8297,
       "crossRateUSD": 10.02,
       "crossRateOther": null
     },
@@ -141,11 +141,11 @@
       "unit": 1,
       "name_tr": "SUUDİ ARABİSTAN RİYALİ",
       "name_en": "SAUDI RIYAL",
-      "forexBuying": 4.8427,
-      "forexSelling": 4.8514,
-      "banknoteBuying": 4.8064,
-      "banknoteSelling": 4.8878,
-      "crossRateUSD": 3.7584,
+      "forexBuying": 4.8436,
+      "forexSelling": 4.8523,
+      "banknoteBuying": 4.8073,
+      "banknoteSelling": 4.8887,
+      "crossRateUSD": 3.7586,
       "crossRateOther": null
     },
     "jpy": {
@@ -154,11 +154,11 @@
       "unit": 100,
       "name_tr": "JAPON YENİ",
       "name_en": "JAPENESE YEN",
-      "forexBuying": 12.9392,
-      "forexSelling": 13.0249,
-      "banknoteBuying": 12.8914,
-      "banknoteSelling": 13.0744,
-      "crossRateUSD": 140.33,
+      "forexBuying": 12.9276,
+      "forexSelling": 13.0132,
+      "banknoteBuying": 12.8798,
+      "banknoteSelling": 13.0627,
+      "crossRateUSD": 140.48,
       "crossRateOther": null
     },
     "bgn": {
@@ -167,11 +167,11 @@
       "unit": 1,
       "name_tr": "BULGAR LEVASI",
       "name_en": "BULGARIAN LEV",
-      "forexBuying": 9.2425,
-      "forexSelling": 9.3634,
+      "forexBuying": 9.21,
+      "forexSelling": 9.3305,
       "banknoteBuying": null,
       "banknoteSelling": null,
-      "crossRateUSD": 1.9582,
+      "crossRateUSD": 1.9656,
       "crossRateOther": null
     },
     "ron": {
@@ -180,11 +180,11 @@
       "unit": 1,
       "name_tr": "RUMEN LEYİ",
       "name_en": "NEW LEU",
-      "forexBuying": 3.7385,
-      "forexSelling": 3.7874,
+      "forexBuying": 3.7237,
+      "forexSelling": 3.7724,
       "banknoteBuying": null,
       "banknoteSelling": null,
-      "crossRateUSD": 4.8413,
+      "crossRateUSD": 4.8616,
       "crossRateOther": null
     },
     "rub": {
@@ -193,11 +193,11 @@
       "unit": 1,
       "name_tr": "RUS RUBLESİ",
       "name_en": "RUSSIAN ROUBLE",
-      "forexBuying": 0.30027,
-      "forexSelling": 0.3042,
+      "forexBuying": 0.29787,
+      "forexSelling": 0.30177,
       "banknoteBuying": null,
       "banknoteSelling": null,
-      "crossRateUSD": 60.28,
+      "crossRateUSD": 60.78,
       "crossRateOther": null
     },
     "irr": {
@@ -206,8 +206,8 @@
       "unit": 100,
       "name_tr": "İRAN RİYALİ",
       "name_en": "IRANIAN RIAL",
-      "forexBuying": 0.04309,
-      "forexSelling": 0.04366,
+      "forexBuying": 0.0431,
+      "forexSelling": 0.04367,
       "banknoteBuying": null,
       "banknoteSelling": null,
       "crossRateUSD": 42000,
@@ -219,11 +219,11 @@
       "unit": 1,
       "name_tr": "ÇİN YUANI",
       "name_en": "CHINESE RENMINBI",
-      "forexBuying": 2.6209,
-      "forexSelling": 2.6551,
+      "forexBuying": 2.6103,
+      "forexSelling": 2.6445,
       "banknoteBuying": null,
       "banknoteSelling": null,
-      "crossRateUSD": 6.9057,
+      "crossRateUSD": 6.9351,
       "crossRateOther": null
     },
     "pkr": {
@@ -232,11 +232,11 @@
       "unit": 1,
       "name_tr": "PAKİSTAN RUPİSİ",
       "name_en": "PAKISTANI RUPEE",
-      "forexBuying": 0.08273,
-      "forexSelling": 0.08381,
+      "forexBuying": 0.08247,
+      "forexSelling": 0.08355,
       "banknoteBuying": null,
       "banknoteSelling": null,
-      "crossRateUSD": 218.78,
+      "crossRateUSD": 219.5,
       "crossRateOther": null
     },
     "qar": {
@@ -245,11 +245,11 @@
       "unit": 1,
       "name_tr": "KATAR RİYALİ",
       "name_en": "QATARI RIAL",
-      "forexBuying": 4.9404,
-      "forexSelling": 5.005,
+      "forexBuying": 4.9327,
+      "forexSelling": 4.9972,
       "banknoteBuying": null,
       "banknoteSelling": null,
-      "crossRateUSD": 3.6635,
+      "crossRateUSD": 3.67,
       "crossRateOther": null
     },
     "krw": {
@@ -258,11 +258,11 @@
       "unit": 1,
       "name_tr": "GÜNEY KORE WONU",
       "name_en": "SOUTH KOREAN WON",
-      "forexBuying": 0.01329,
-      "forexSelling": 0.01346,
+      "forexBuying": 0.0132,
+      "forexSelling": 0.01338,
       "banknoteBuying": null,
       "banknoteSelling": null,
-      "crossRateUSD": 1362,
+      "crossRateUSD": 1371,
       "crossRateOther": null
     },
     "azn": {
@@ -271,8 +271,8 @@
       "unit": 1,
       "name_tr": "AZERBAYCAN YENİ MANATI",
       "name_en": "AZERBAIJANI NEW MANAT",
-      "forexBuying": 10.6527,
-      "forexSelling": 10.7921,
+      "forexBuying": 10.6551,
+      "forexSelling": 10.7945,
       "banknoteBuying": null,
       "banknoteSelling": null,
       "crossRateUSD": 1.699,
@@ -284,8 +284,8 @@
       "unit": 1,
       "name_tr": "BİRLEŞİK ARAP EMİRLİKLERİ DİRHEMİ",
       "name_en": "UNITED ARAB EMIRATES DIRHAM",
-      "forexBuying": 4.9276,
-      "forexSelling": 4.992,
+      "forexBuying": 4.9286,
+      "forexSelling": 4.9931,
       "banknoteBuying": null,
       "banknoteSelling": null,
       "crossRateUSD": 3.673,
@@ -296,13 +296,13 @@
       "currencyCode": "XDR",
       "unit": 1,
       "name_tr": "ÖZEL ÇEKME HAKKI (SDR)                            ",
-      "name_en": "SPECIAL DRAWING RIGHT (SDR)",
-      "forexBuying": 23.6829,
+      "name_en": "SPECIAL DRAWING RIGHT (SDR)                       ",
+      "forexBuying": 23.616,
       "forexSelling": null,
       "banknoteBuying": null,
       "banknoteSelling": null,
       "crossRateUSD": null,
-      "crossRateOther": 1.30002
+      "crossRateOther": 1.29606
     }
   }
 }
