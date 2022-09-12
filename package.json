@@ -1,6 +1,6 @@
 {
   "name": "tcmb-kurlar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "homepage": "https://aytacmalkoc.com.tr/tcmb-exchange-rates-api",
   "main": "./bin/www",
