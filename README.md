@@ -19,7 +19,7 @@ const { usd, eur, sek } = data.exchangeRates;
 
 ## ⌛ Rate Limits & Caching
 
-Default rate limits are set to `100` requests per hour. API requests are cached for 5 minutes by default.
+Default rate limits are set to `100` requests per hour. API requests are cached for `5 minutes` by default.
 
 ## 🔗 Installation
 
