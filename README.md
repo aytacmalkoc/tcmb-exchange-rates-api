@@ -10,7 +10,7 @@ If you are having problems, please check the [changelog](https://github.com/ayta
 
 ```js
 const axios = require("axios");
-const API_URL = "https://tcmb-exchange-rates.herokuapp.com/exchange-rates";
+const API_URL = "https://tcmb-exchange-rates-api.vercel.app/exchange-rates";
 
 const { data } = await axios.get(API_URL);
 
